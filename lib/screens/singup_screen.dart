@@ -21,7 +21,6 @@ class SingUpScreen extends StatelessWidget {
           child: Form(
               child: Column(
         children: const <Widget>[
-
           //Apellidos
           InputForm(
             labelText: 'Last Name',
@@ -39,7 +38,8 @@ class SingUpScreen extends StatelessWidget {
             keyboardType: TextInputType.emailAddress,
           ),
 
-          //Telefono
+          //Telefono\
+          //change
           InputForm(
             labelText: 'Phone',
             hintText: 'Enter your phone',
